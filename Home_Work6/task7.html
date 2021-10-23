@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<script>
+		let mainElement = document.createElement('main');
+		mainElement.classList.add('mainClass', 'check', 'item');
+		document.body.appendChild(mainElement);
+
+		let divElement = document.createElement('div');
+		divElement.id = 'myDiv';
+		mainElement.appendChild(divElement);
+
+		let pElement = document.createElement('p');
+		divElement.appendChild(pElement);
+		pElement.innerHTML = 'First paragraph';
+	</script>
+</body>
+</html>
