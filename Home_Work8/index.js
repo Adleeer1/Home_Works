@@ -62,7 +62,7 @@ checkBancCard('4444-5555-6666-7777');
 
 
 function checkEmail2(email) {
-   const result = /^[^_\-\W][\w\d_]+\-?@\w+\.\w+/gi.test(email);
+   const result = /^[^_\-\W]([-]?\w)+@\w+\.\w+/gi.test(email);
    if (result === true) {
       console.log('Email is correct!');
    }
