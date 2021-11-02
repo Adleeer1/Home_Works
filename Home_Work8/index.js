@@ -62,7 +62,7 @@ checkBancCard('4444-5555-6666-7777');
 
 
 function checkEmail2(email) {
-   const result = /^[^_-\W][\w\d]+\-?@\w+\.\w+/gi.test(email);
+   const result = /^[^_\-\W][\w\d_]+\-?@\w+\.\w+/gi.test(email);
    if (result === true) {
       console.log('Email is correct!');
    }
@@ -90,3 +90,14 @@ function checkLogin(login) {
 console.log('Task_7:');
 checkLogin('ee1.1ret3');
 checkLogin('ee1*1ret3');
+
+
+
+
+
+
+
+
+
+
+/* /^((([0-9A-Za-z]{1}[0-9A-Za-z-?_*]{1,})@(\w+\.\w+))$/ */
