@@ -98,23 +98,7 @@ function sortByPrice() {
    });
 
    if (checkbox.checked === true) {
-      byPrice.forEach(elem => {
-         main.innerHTML += `
-      <div class="item">
-      <div class="itemImg"><img src="img/${elem.image}" class="card-img-top" width="200" height="200" alt=""></div>
-         <div><h5 class="itemName">${elem.name}</h5></div>
-         <ul>
-            <li>Price: ${elem.price}$</li>
-            <li>Material: ${elem.material}</li>
-            <li>Color: ${elem.color}</li>
-         </ul>
-         <div class="itemBtns">
-            <button type="button" class="btn btn-primary btn-edit" id="${elem.name}" data-bs-toggle="modal"
-            data-bs-target="#exampleModal">Edit</button>
-            <button class="btn btn-danger btn-delete" name="${elem.name}"type="submit">Delete</button>
-         </div>
-      </div>`
-      });
+      createCard(byPrice);
    }
 
    else if (checkbox.checked === false) {
