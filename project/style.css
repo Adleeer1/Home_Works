@@ -1,0 +1,179 @@
+.my-container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    margin-top: -1px;
+    margin-left: -1px;
+    height: 70px;
+}
+
+aside {
+    width: 300px !important;
+    border-right: 1px solid rgb(158, 158, 158);
+}
+
+
+.m-auto {
+    margin: auto;
+}
+
+.sidebar {
+    width: 180px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.btn-count {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 120px !important;
+}
+
+nav {
+    border-bottom: 1.5px solid grey;
+    height: 70px;
+}
+
+section {
+    min-height: 900px;
+}
+
+
+.modal-title {
+    margin-left: 500px;
+}
+
+.modal-header {
+    background-color: rgb(211, 210, 210);
+    background: rgb(211, 210, 210);
+}
+
+.modal-card {
+    width: 250px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.m-top {
+    margin-top: 25px;
+}
+
+#btnCreate {
+    width: 130px !important;
+    margin-left: 55px;
+}
+
+.edit-modal {
+    width: 130px !important;
+    margin-left: 55px;
+}
+
+.modal-content {
+    min-height: 700px;
+}
+
+input,
+select,
+button {
+    box-shadow: none !important;
+}
+
+
+.btn-edit,
+.btn-delete {
+    width: 90px !important;
+}
+
+.item {
+    height: 420px;
+    border: 1px solid rgb(211, 210, 210);
+    width: 270px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+li {
+    list-style-type: none
+}
+
+
+footer {
+    height: 115px;
+    background-color: #222222;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+#totalPrice {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+#content {
+    width: 933px;
+    margin-top: 30px;
+}
+
+.form-check {
+    margin-top: 20px;
+}
+
+img {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.itemImg {
+    width: 200px;
+    height: 200px;
+}
+
+.itemName {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.itemBtns {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+#count {
+    margin-left: 25px;
+}
+
+.form-check {
+    margin-left: 20px;
+}
+
+.icons {
+    margin-top: -4px;
+    margin-right: 8px;
+}
+
+.block-icons {
+    margin-top: 8px;
+}
+
+.block-inform {
+    margin-left: 550px;
+    margin-right: 150px;
+}
+
+.fs-text{
+    margin-top: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 16px;
+}
